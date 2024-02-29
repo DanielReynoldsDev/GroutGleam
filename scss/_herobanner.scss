@@ -1,0 +1,253 @@
+// all hero related styles to go in here.
+
+.hero-banner{
+	background-image: url('../images/gc1.png'), url('../images/gc1.png');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 209px);
+	@include mq('xs'){
+		height: calc(100vh - 168px);
+		min-height: 532px;
+	}
+	@include mq('sm'){
+		height: calc(100vh - 110px);
+		min-height: 590px;
+	}
+	@include mq('md'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+	@include mq('lg'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+}
+.hero-content{
+	width: 100%;
+	align-content: center;
+	@include mq('xs'){
+		padding-top: 70px;
+	}
+	@include mq('md'){
+		width: 940px;
+	}
+	@include mq('lg'){
+		width: 1170px;
+	}
+}
+
+
+ .hero-text{
+	width: 100%;
+	font-family: poppins, sans-serif;
+	color: $base-white;
+	text-align: center;
+	max-width: 90%;
+	margin: -1px auto 0;
+	h1{
+		font-size: 48px;
+		font-weight: 400;
+		margin: 0 0 25px 0;
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 2.25rem;
+		margin: 0 0 35px;
+	}
+	span{
+		font-weight: 400;
+		line-height: 50px;
+		font-size: 1.25rem;
+	}
+	
+	@include mq('md'){
+		text-align: left;
+		margin-left: 0;
+		
+	}
+}
+
+// all hero related styles to go in here.
+
+.hero-banner-serv{
+	background-image: url('../images/ggwide.png'), url('../images/ggwide.png');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 209px);
+	@include mq('xs'){
+		height: calc(100vh - 168px);
+		min-height: 532px;
+	}
+	@include mq('sm'){
+		height: calc(100vh - 110px);
+		min-height: 590px;
+	}
+	@include mq('md'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+	@include mq('lg'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+}
+.hero-content-serv{
+	width: 100%;
+	align-content: center;
+	@include mq('xs'){
+		padding-top: 90px;
+	}
+	@include mq('md'){
+		width: 940px;
+	}
+	@include mq('lg'){
+		width: 1170px;
+	}
+}
+
+
+ .hero-text-serv{
+	width: 100%;
+	font-family: poppins, sans-serif;
+	color: $ggdb;
+	text-align: center;
+	max-width: 90%;
+	margin: -1px auto 0;
+	h1{
+		font-size: 48px;
+		font-weight: 400;
+		margin: 0 0 25px 0;
+		color: $ggdb;
+		@include mq('xs'){
+			font-size: 38px;
+		}
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 2.25rem;
+		margin: 0 0 35px;
+	}
+	span{
+		font-weight: 400;
+		line-height: 50px;
+		font-size: 1.25rem;
+	}
+	@include mq('md'){
+		text-align: left;
+		margin-left: 0;
+		
+	}
+}
+
+// all hero related styles to go in here.
+
+.hero-banner-port{
+	background-image: url('../images/banda4b.jpg'), url('../images/banda4b.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 209px);
+	@include mq('xs'){
+		height: calc(100vh - 168px);
+		min-height: 532px;
+	}
+	@include mq('sm'){
+		height: calc(100vh - 110px);
+		min-height: 590px;
+	}
+	@include mq('md'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+	@include mq('lg'){
+		height: calc(100vh - 209px);
+		min-height: 491px;
+	}
+}
+.hero-content-port{
+	width: 100%;
+	align-content: center;
+	@include mq('xs'){
+		padding-top: 70px;
+	}
+	@include mq('md'){
+		width: 940px;
+	}
+	@include mq('lg'){
+		width: 1170px;
+	}
+}
+
+
+ .hero-text-port{
+	width: 100%;
+	font-family: poppins, sans-serif;
+	color: $base-white;
+	text-align: center;
+	max-width: 90%;
+	margin: -1px auto 0;
+	h1{
+		font-size: 48px;
+		font-weight: 400;
+		margin: 0 0 25px 0;
+		color: $base-white;
+		@include mq('xs'){
+			font-size: 38px;
+		}
+	}
+	p{
+		font-size: 1.25rem;
+		line-height: 2.25rem;
+		margin: 0 0 35px;
+	}
+	span{
+		font-weight: 400;
+		line-height: 50px;
+		font-size: 1.25rem;
+	}
+	@include mq('md'){
+		text-align: left;
+		margin-left: 0;
+		
+	}
+}
+
+.port-cont-main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 40px;
+	@include mq('xs'){
+		
+		
+	}
+	@include mq('md'){
+		
+		margin: 20px;
+	}
+}
+
+.port-cont{
+	img{
+	margin: 40px;
+	width: 500px;
+	height: auto;
+	@include mq('xs'){
+		width: 300px;
+		margin: 10px;
+	}
+	@include mq('md'){
+		width: 400px;
+		margin: 20px;
+	}
+	}
+}

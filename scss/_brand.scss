@@ -1,0 +1,258 @@
+//brand with the netmatters image
+
+.hero-brand{
+	background-color: $base-white;
+	color: $ggdb;
+	padding: 50px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 15%;
+	@include mq('md'){
+		background-image: url('../images/GG+icon.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	h2{
+		margin: -6px 0 28px;
+		color: $ggdb;
+	}
+	p{
+		line-height: 1.875rem;
+		margin-bottom: 25px;
+	}
+	@include mq('sm'){
+		.hero-brand-content{
+			max-width: 720px;
+			margin: auto;
+		}
+	}
+	@include mq('md'){
+		.hero-brand-content{
+			max-width: 940px;
+		}
+	}
+	@include mq('lg'){
+		background-size: auto 80%;
+		.hero-brand-content{
+			max-width: 1170px;
+			p{
+				max-width: 570px;
+			}
+		}
+	}
+}
+
+.serv-cont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hero-brand-serv{
+	background-color: $base-white;
+	color: $ggdb;
+	margin-top: 40px;
+/* 	padding: 50px 15px;
+	margin-left: 20%;
+	
+	margin-bottom: 20px;
+	margin-right: 10%; */
+	display: flex;
+	flex-direction: column;
+/* 	@include mq('md'){
+		background-image: url('../images/GG+icon.PNG');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	} */
+	h2{
+		margin: -6px 0 28px;
+		color: $ggdb;
+	}
+	p{
+		line-height: 1.875rem;
+		margin-bottom: 25px;
+	}
+	img{
+		height: auto;
+		width: 500px;
+	}
+
+	.hero-brand-content-serv{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+	}
+/* 	.hero-brand-content-serv-img{
+		padding-left: 20%;
+		@include mq('xs'){
+			padding-left: 0%;
+		}
+		@include mq('sm'){
+			padding-left: 0%;
+		}
+	} */
+	@include mq('xs'){
+/* 		margin-left: 5%;
+		flex-direction: column; */
+		.hero-brand-content-serv-img{
+			img{
+				width: 350px;
+				padding-left: 0%;
+			}
+		}
+	}
+	/* @include mq('sm'){
+		margin-left: 5%;
+		flex-direction: column;
+		.hero-brand-content-serv-img{
+			padding-left: 20%;
+		
+		}
+
+	} */
+	/* @include mq('md'){
+		margin-left: 5%;
+		flex-direction: row;
+		.hero-brand-content-serv{
+			max-width: 940px;
+		}
+	} */
+	/* @include mq('lg'){
+		margin-left: 5%;
+		flex-direction: row;
+		background-size: auto 80%;
+		.hero-brand-content-serv{
+			max-width: 1170px;
+			p{
+				max-width: 570px;
+			}
+		}
+	} */
+}
+
+
+
+/* .hero-brand-serv-r{
+	background-color: $base-white;
+	color: $ggdb;
+	padding: 50px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 15%;
+	display: flex;
+	flex-direction: row;
+
+	h2{
+		margin: -6px 0 28px;
+		color: $ggdb;
+	}
+	p{
+		line-height: 1.875rem;
+		margin-bottom: 25px;
+	}
+
+	img{
+		height: auto;
+		width: 500px;
+	}
+	.hero-brand-content-serv-img{
+		padding-left: 0%;
+	}
+	@include mq('xs'){
+		flex-direction: column;
+		margin-left: 10%;
+		padding: 0px;
+		.hero-brand-content-serv-img{
+			img{
+				width: 350px;
+			}
+		}
+	}
+	@include mq('sm'){
+		margin-left: 5%;
+		padding: 0px;
+		.hero-brand-content-serv-r{
+			max-width: 720px;
+			margin: auto;
+		}
+	}
+	@include mq('md'){
+		margin-left: 5%;
+		.hero-brand-content-serv-r{
+			max-width: 940px;
+		}
+	}
+	@include mq('lg'){
+		margin-left: 5%;
+		background-size: auto 80%;
+		.hero-brand-content-serv-r{
+			max-width: 1170px;
+			p{
+				max-width: 570px;
+			}
+		}
+	}
+} */
+
+
+.video{
+	background-color: $base-white;
+	color: $ggdb;
+	padding: 50px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h2{
+		margin: -6px 0 28px;
+		color: $ggdb;
+	}
+	p{
+		line-height: 1.875rem;
+		margin-bottom: 25px;
+	}
+	@include mq('sm'){
+		.video-cont{
+			max-width: 720px;
+			margin: auto;
+		}
+	}
+	@include mq('md'){
+		.video-cont{
+			max-width: 940px;
+			margin: auto;
+		}
+	}
+	@include mq('lg'){
+		background-size: auto 80%;
+
+		.video-cont{
+			max-width: 1170px;
+			margin: auto;
+			p{
+				max-width: 570px;
+			}
+		}
+	}
+}
+
+.bark{
+	@include mq('sm'){
+		
+	}
+	@include mq('md'){
+		
+	}
+	@include mq('lg'){
+		
+	}
+
+}

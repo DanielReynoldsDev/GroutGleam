@@ -1,0 +1,244 @@
+//all buttons styles non to override other files.
+
+.btn{
+	display: inline-block;
+	height: auto;
+	line-height: 35px;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.063rem;
+	border-radius: 3px;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.support-button{
+	width: 144.61px;
+	height: 56px;
+	line-height: 46px;
+	color: $base-white;
+	font-size: 18px;
+	font-style: poppins, sans-serif;
+	background-color: $ggdb;
+	margin-right: 20px;
+	font-weight: 400;
+	&:hover{
+		background-color: $gglb;
+	}
+	@include mq('xs'){
+		display: none; 
+	}
+	@include mq('sm'){
+		display: none;
+	}
+	@include mq('md'){
+		display: inline;
+	}
+	.fas{
+		font-size: 20px;
+	}
+}
+
+.contact-button{
+	width: 152.42px;
+	height: 56px;
+	line-height: 46px;
+	color: $base-white;
+	font-size: 18px;
+	font-style: poppins, sans-serif;
+	background-color: $search-button;
+	margin-right: 20px;
+	font-weight: 400;
+	&:hover{
+		background-color: $search-button-hvr;
+	}
+	@include mq('xs'){
+		display: none; 
+	}
+	@include mq('sm'){
+		display: none;
+	}
+	@include mq('md'){
+		display: inline;
+	}
+	.fas{
+		font-size: 20px;
+	}
+}	
+
+.port-button{
+	width: 160px;
+	height: 56px;
+	line-height: 46px;
+	color: $base-white;
+	font-size: 18px;
+	font-style: poppins, sans-serif;
+	background-color: $gglb;
+	margin-right: 20px;
+	font-weight: 400;
+	&:hover{
+		background-color: $ggdb;
+	}
+	@include mq('xs'){
+		display: none; 
+	}
+	@include mq('sm'){
+		display: none;
+	}
+	@include mq('md'){
+		display: inline;
+	}
+	.fas{
+		font-size: 20px;
+	}
+}
+
+.btn-search{
+	position: absolute;
+	left: 174px;
+	width: 63px;
+	height: 100%;
+	padding: 15px;
+	background-color: $search-button;
+	color: $base-white;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	&:hover{
+		cursor: pointer;
+		background-color: $search-button-hvr;
+	}
+	@include mq('md'){
+		border-radius: 3px;
+		left: 0;
+	}
+	@include mq('lg'){
+		left: 240px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}
+
+.btn-hero{
+	
+	background-color: $ggdb;
+	color: $base-white;
+	padding: 5px 20px;
+	.fas{
+		margin: 0 -4px 0 12px;
+		padding-right: 1px;
+	}
+	&:hover{
+	background-color: $gglb;
+	}
+}
+
+.btn-brand{
+	background-color: $gglb;
+	color: $base-white;
+	padding: 5px 15px;
+	.fas{
+		margin: 0 -4px 0 12px;
+		padding: 0 1px;
+	}
+	&:hover{
+		background-color: $ggdb;
+	}
+}
+
+.btn-read-more{
+	width: 129.73px;
+	height: 47px;
+	color: $base-white;
+	font-size: 17px;
+	padding: 5px 15px;
+	font-weight: 400;
+}
+
+.btn-bespoke{
+	background-color: $bespoke-color;
+	&:hover{
+		background-color: $bespoke-color-hover;
+		}
+}
+
+.btn-design{
+	background-color: $design-color;
+	&:hover{
+		background-color: $design-color-hover;
+	}
+}
+
+.btn-telecoms{
+	background-color: $telecoms-color;
+	&:hover{
+		background-color: $telecoms-color-hover;
+	}
+}
+
+.btn-subscribe{
+	background-color: $menu-sub-button;
+	color: $base-white;
+	padding: 5px 15px;
+	border: none;
+	font-family: $fontstyle;
+	&:hover{
+		background-color: $menu-sub-button-hvr;
+		cursor: pointer;
+	}
+}
+
+// Burger
+
+.burger-links{
+	list-style: none;
+	display: none;
+	/* position: fixed; */
+	/* left: -100%; */
+	/* top: 70px; */
+	flex-direction: column;
+	a{
+		text-decoration: none;
+	}
+}
+.burger-item-icon{
+	text-decoration: none !important;
+	color: $base-white;
+	border-bottom: 0px !important;
+
+}
+.burger-links.active{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	position: fixed;
+	left: 0%;
+	top: 70px;
+	height: 100%;
+	background-color: $ggdb;
+	align-items: center;
+	padding-left: 0%;
+	
+	li{
+		text-decoration: none;
+		font-size: 30px;
+		padding-top: 40px;
+		padding-left: 10px;
+		color: $base-white;
+		/* border:4px solid $base-white; */
+		width: 100%;
+		background-color: $ggdb;
+
+	}
+	a{
+		text-decoration: none !important;
+		.fas{
+			text-decoration: none !important;
+			color: $base-white;
+		}
+	}
+}
